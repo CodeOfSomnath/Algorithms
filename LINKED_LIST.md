@@ -37,3 +37,8 @@ int main(){
 }
 
 ```
+
+
+## Installation 
+Just simply download LinkedList.h and start using 
+
