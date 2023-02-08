@@ -41,5 +41,26 @@ int main(){
 
 
 ## Installation 
-Just simply download LinkedList.h and start using 
+Just simply download LinkedList.h and start using in your program 
+
+## Important 
+If you want to store any other type of data (other then Integer) 
+you may change the data type in Node structure or make a structure and which must be define as Node
+
+As example:
+```c
+// This structure can store double data type
+struct Node {
+   double data;
+   struct Node * next;
+}
+// This structure can store character data type 
+struct Node {
+   char data;
+   struct Node * next;
+}
+
+
+```
+
 
