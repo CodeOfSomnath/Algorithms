@@ -9,7 +9,10 @@ struct Node {
   struct Node *next;
 };
 typedef struct Node Node;
-
+/*
+  If you want to add a value into your head pointer then 
+  you can use this method.p
+*/
 Node *init(Node *ptr, int data) {
   ptr->data = data;
   ptr->next = (Node *)malloc(sizeof(Node));
@@ -25,6 +28,9 @@ Node *add(Node *ptr, int *size, int data) {
   return ptr->next;
 }
 
+/*
+  It is only you can use for 1-D array
+*/
 void print(Node *head, int *size) {
   Node *temp = head->next;
   printf("[");
