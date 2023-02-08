@@ -1,5 +1,6 @@
-# Algorithms
-All algorithms in c language 
+
+
+
 
 ## LinkedList.c 
 
