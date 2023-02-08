@@ -29,7 +29,7 @@ Node *add(Node *ptr, int *size, int data) {
 }
 
 /*
-  It is only you can use for 1-D array
+  It is only for 1-D LinkedList
 */
 void print(Node *head, int *size) {
   Node *temp = head->next;
